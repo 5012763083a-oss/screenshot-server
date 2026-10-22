@@ -1,0 +1,3 @@
+{ "name": "screenshot-server", "version": "1.0.0", "description": "Self-hosted Playwright screenshot CLI and HTTP server with SSRF protection.", "license": "MIT", "author": "webhookfixes",
+  "bin": { "screenshot": "bin/screenshot.js" }, "engines": { "node": ">=18" }, "scripts": { "test": "node --test test/", "postinstall": "playwright install chromium || true" },
+  "dependencies": { "playwright": "^1.48.0" }, "repository": { "type": "git", "url": "https://github.com/5012763083a-oss/screenshot-server" } }
